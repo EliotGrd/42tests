@@ -80,9 +80,12 @@ int main()
 	printf("\n- Testing %%p -\n");
 
 	int ptr = 42;
+	char c = 'x';
 	void	*vide = NULL;
 	printf("- %p -\n", &ptr);
 	ft_printf("- %p -\n", &ptr);
+	printf("- %p -\n", &c);
+	ft_printf("- %p -\n", &c);
 	printf("- %p -\n", vide);
 	ft_printf("- %p -\n", vide);
 
